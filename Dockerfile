@@ -4,7 +4,7 @@ RUN mkdir /app
 RUN mkdir /app/bin
 RUN mkdir /app/packages
 
-COPY ./.commit-id /app
+# COPY ./.commit-id /app
 COPY ./packages /app/packages/
 COPY ./bin/ /app/bin/
 COPY ./docker_requirements.txt /app
