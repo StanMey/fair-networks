@@ -10,7 +10,6 @@ include
 man
 .Python
 pip-selfcheck.json
-*experiments/
 representations/
 ICML2019
 .commit-id
