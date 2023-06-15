@@ -1,0 +1,20 @@
+{
+    "learning_rate": 0.01,
+    "schedule": "m30:c10",
+    "hidden_layers": "50",
+    "class_layers": "50",
+    "sensible_layers": "50",
+    "fairness_importance": 0.5,
+    "dataset": "default",
+    "batch_size": 128,
+    "noise_type": "sigmoid_sep",
+    "dataset_base_path": "../../data",
+    "model_dir": "models/",
+    "eval_data": null,
+    "eval_stats": false,
+    "random_seed": 42,
+    "output": null,
+    "resume_ckpt": null,
+    "checkpoint": "models/model1s_sex.ckpt",
+    "save_model_schedule": "3000:100"
+}
